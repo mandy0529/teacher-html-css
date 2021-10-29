@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager Starter</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <form>
+      <h3>task manager</h3>
+      <input class="text" placeholder="write a list to do" type="text" />
+      <input class="submit" type="submit" value="submit" />
+      <div class="error-msg">there was an error</div>
+    </form>
+    <div class="load">...loading</div>
+
+    <div class="task-list">
+      <ul class="items">
+        <li class="item">
+          <div class="list1">
+            <div class="list-icon"></div>
+            <span class="list-title">list a to do</span>
+          </div>
+          <d iv class="list2">
+            <div class="list-icon"><a href="task.html">✏️</a></div>
+            <div class="list-icon">❌</div>
+          </d>
+        </li>
+        <li class="item">
+          <div class="list1">
+            <div class="list-icon">✅</div>
+            <span class="list-title">list a to do</span>
+          </div>
+          <div class="list2">
+            <div class="list-icon"><a href="task.html">✏️</a></div>
+            <div class="list-icon">❌</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
